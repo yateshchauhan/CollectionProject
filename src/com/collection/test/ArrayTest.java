@@ -4,5 +4,11 @@ import java.util.ArrayList;
 
 public class ArrayTest {
 
-	ArrayList<String> stringList = new ArrayList<>();
+	static ArrayList<String> stringList = new ArrayList<>();
+	
+	public static void main(String[] args) {
+		
+		stringList.add("Hello Java");
+		System.out.println(stringList);
+	}
 }
